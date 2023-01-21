@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  background-color: #ffff;
+}
+h1 {
+  margin: 0;
+}
+.header {
+  background-color: aqua;
+  padding: 8px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 8px;
+  align-items: center;
+  height: 90vh;
+  flex-direction: column;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+button {
+  background-color: rgb(202, 201, 230);
+  padding: 5px;
+  margin: 5px;
+}
+.btn-add {
+  color: Green;
+  font-size: 20px;
+  font-weight: bold;
+}
+.btn-remove {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+.heading {
+  font-size: 80px;
+  color: black;
+  margin: 10px;
+}
